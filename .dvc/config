@@ -1,0 +1,4 @@
+[core]
+    remote = local-area52
+['remote "local-area52"']
+    url = /mnt/slow_data/raite-dvcstore/

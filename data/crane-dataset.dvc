@@ -1,0 +1,6 @@
+outs:
+- md5: a502b45df58809af930df9229ca1de6a.dir
+  size: 69818147594
+  nfiles: 29834
+  hash: md5
+  path: crane-dataset
