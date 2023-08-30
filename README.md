@@ -1,7 +1,7 @@
 
 # RAITE Dataset Registry
 
-This repository contains the RAITE dataset registry. It is a [DVC](https://dvc.org/) repository that contains the metadata of the datasets used in the RAITE project.
+This repository contains the RAITE [data registry](https://dvc.org/doc/use-cases/data-registry). It is a [DVC](https://dvc.org/) repository that contains the metadata of the datasets used in the RAITE project.
 
 
 ## How to use 
@@ -55,7 +55,7 @@ dvc get  https://github.com/nd-crane/raite-data-registry data/crane-dataset
 
 ## Dataset Registry Maintenance
 
-You can add, pull, and update data in that data registry for the RAITE exercise.
+You can add, pull, and update data in that [data registry](https://dvc.org/doc/use-cases/data-registry) for the RAITE exercise.
 
 **Note**: For now, to access this dataset registry, you need to have access to the *area-52 machine*.
 We will change the remote location and update the access policy on that page.
@@ -84,7 +84,7 @@ pdm update
 
 ### **Adding datasets to this registry**
 
-you can add your dataset to this data registry by running the following steps:
+you can add your dataset to this [data registry](https://dvc.org/doc/use-cases/data-registry) by running the following steps:
 
 **1. Copy your dataset**
 Copy your dataset to `./data/ folder, for example:
