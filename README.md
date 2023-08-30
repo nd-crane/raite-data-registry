@@ -5,10 +5,13 @@ This repository contains the RAITE dataset registry. It is a [DVC](https://dvc.o
 
 
 ## How to use 
-You can use this repository to list, import, and download the datasets used in the RAITE project. You don't need to clone this repository for that.
+You can use this repository to list, import, and download the datasets used in the RAITE. You don't need to clone this repository for that.
 You only need to have DVC installed.
 
 Please follow the instructions [here](https://dvc.org/doc/install) to install DVC.
+
+**Note**: For now, to access this dataset registry, you need to have access to the *area-52 machine*.
+We will change the remote location and update the access policy on that page.
 
 ### **Listing data**
 
@@ -50,6 +53,71 @@ To obtain the initial crane dataset, execute the following command for downloadi
 dvc get  https://github.com/nd-crane/raite-data-registry data/crane-dataset
 ```
 
+## Dataset Registry Maintenance
+
+You can add, pull, and update data in that data registry for the RAITE exercise.
+
+**Note**: For now, to access this dataset registry, you need to have access to the *area-52 machine*.
+We will change the remote location and update the access policy on that page.
+
+### **Setup**
+
+The requirement is to clone this repo and have DVC installed.
+
+**1. Cloning this repo**
+```bash
+git clone https://github.com/nd-crane/raite-data-registry.git
+cd raite-data-registry
+```
+
+**2. Installing DVC**
+
+You can find instructions [here](https://dvc.org/doc/install) to install DVC.
+
+If you decide to use PDM to manage Python packages, after cloning this repo, you can have DVC by running this command:
+
+```bash 
+pdm update
+```
+*Note*: In that case, remember to add `pdm run` in the beginning of the DVC commands. 
 
 
+### **Adding datasets to this registry**
 
+you can add your dataset to this data registry by running the following steps:
+
+**1. Copy your dataset**
+Copy your dataset to `./data/ folder, for example:
+
+```bash
+cp ~/Downloads/<your-dataset-name> ./data/
+```
+
+**1. Add your dataset to DVC:**
+
+```bash
+dvc add data/<your-dataset-name>
+dvc push
+```
+**2. Add your dataset metadata to Git:**
+```bash
+git add data/<your-dataset-name>.dvc
+git add data/.gitignore
+git commit -m "Add <your-dataset-name>"
+git push
+```
+
+
+### **Pulling data**
+
+To pull all the registered data, run the following commands:
+
+```bash
+dvc pull 
+```
+
+To pull a specific dataset, for example, the initial crane dataset, you can run the following command:
+
+```bash
+dvc pull data/crane-dataset
+```
