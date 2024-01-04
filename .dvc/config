@@ -1,5 +1,5 @@
 [core]
-    remote = cvrl_remote
+    remote = local-area52
 ['remote "local-area52"']
     url = /mnt/slow_data/raite-dvcstore/
 ['remote "cvrl_remote"']
