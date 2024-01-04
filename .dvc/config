@@ -1,4 +1,6 @@
 [core]
-    remote = local-area52
+    remote = cvrl_remote
 ['remote "local-area52"']
     url = /mnt/slow_data/raite-dvcstore/
+['remote "cvrl_remote"']
+    url = ssh://crcfe01.crc.nd.edu:/afs/crc.nd.edu/group/cvrl/archive/data/ND/RAITE
