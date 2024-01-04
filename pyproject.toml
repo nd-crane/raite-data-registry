@@ -6,7 +6,7 @@ authors = [
     {name = "Priscila Moreira", email = "pmoreira@nd.edu"},
 ]
 dependencies = [
-    "dvc[gdrive]",
+    "dvc==3.33.3",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
