@@ -10,8 +10,9 @@ You only need to have DVC installed.
 
 Please follow the instructions [here](https://dvc.org/doc/install) to install DVC.
 
-**Note**: For now, to access this dataset registry, you need to have access to the *area-52 machine*.
-We will change the remote location and update the access policy on that page.
+**Note**: For now, to access this dataset registry, you need to have ssh access to the *area-52 machine* or *CRC frontend machines*.
+
+We will add another remote location with an access type other than SSH so that users outside of Notre Dame have access.
 
 ### **Listing data**
 
