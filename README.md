@@ -34,6 +34,11 @@ You can import a specific dataset from the registry by running the `dvc import` 
 For example, to import the initial crane dataset, you can run the following:
 
 ```bash
+# only in the first time
+dvc init
+```
+
+```bash
 dvc import  https://github.com/nd-crane/raite-data-registry data/crane-dataset
 ```
 
