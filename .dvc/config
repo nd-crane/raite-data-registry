@@ -6,3 +6,6 @@
     url = ssh://crcfe01.crc.nd.edu:/afs/crc.nd.edu/group/cvrl/archive/data/ND/RAITE
 ['remote "cvrl_local"']
     url = /afs/crc.nd.edu/group/cvrl/archive/data/ND/RAITE    
+['remote "gdrive"']
+    url = gdrive://1WMWYVw26QsvSukUydszHsmTL9bIWuz9X        
+
