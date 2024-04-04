@@ -9,7 +9,7 @@ To list, import, and download the datasets registered here, please see [a usage 
 
 ## Dataset Registry Maintenance
 
-You can add, pull, and update data in that RAITE dataset registry. For more information about data registry go to [https://dvc.org/doc/use-cases/data-registry](https://dvc.org/doc/use-cases/data-registry)
+Add, pull, and update data in that RAITE dataset registry. For more information about data registry, go to [https://dvc.org/doc/use-cases/data-registry](https://dvc.org/doc/use-cases/data-registry)
 
 **Note**: To access this dataset registry, you must have SSH access to *CRC machines*.
 We will add another remote location with an access type other than an SSH-dependent one so that users outside of Notre Dame have access.
@@ -26,7 +26,7 @@ cd raite-data-registry
 
 **2. Installing DVC**
 
-You can find instructions [here](https://dvc.org/doc/install) to install DVC.
+You can find instructions [here](https://dvc.org/doc/install) on how to install DVC.
 
 If you decide to use PDM to manage Python packages, after cloning this repo, you can have DVC by running this command:
 
