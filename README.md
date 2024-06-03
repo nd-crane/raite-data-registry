@@ -28,7 +28,7 @@ cd raite-data-registry
 
 You can find instructions [here](https://dvc.org/doc/install) on how to install DVC.
 
-If installing with conda it is recommeneded to set your default solver as libmamba. You can find instructions [here](https://www.anaconda.com/blog/conda-is-fast-now) on installing and setting your default solver as libmamba. Alternatively, you can also following the DVC installation instructions and install mamba within your dvc envirnoment.
+If installing with conda it is recommeneded to set your default solver as libmamba. You can find instructions [here](https://www.anaconda.com/blog/conda-is-fast-now) on installing and setting your default solver as libmamba. Alternatively, you can also follow the DVC installation instructions and install mamba within your DVC envirnoment.
 
 #### Installing with conda (libmamba default solver):
 
