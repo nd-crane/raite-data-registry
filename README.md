@@ -28,11 +28,73 @@ cd raite-data-registry
 
 You can find instructions [here](https://dvc.org/doc/install) on how to install DVC.
 
-If you decide to use PDM to manage Python packages, after cloning this repo, you can have DVC by running this command:
+If installing with conda it is recommeneded to set your default solver as libmamba. You can find instructions [here](https://www.anaconda.com/blog/conda-is-fast-now) on installing and setting your default solver as libmamba. Alternatively, you can also following the DVC installation instructions and install mamba within your dvc envirnoment.
+
+#### Installing with conda (libmamba default solver):
+
+###### Local storage
+```bash
+conda install -c conda-forge dvc
+```
+
+###### Remote storage
+```bash
+conda install -c conda-forge dvc-ssh
+```
+
+###### Google Drive
+```bash
+conda install -c conda-forge dvc-gdrive
+```
+
+#### Installing with conda (libmamba not default solver):
+
+Start by installing mamba as the default solver in your DVC envirnoment.
+
+###### Mamba solver
+
+```bash
+conda install -c conda-forge mamba
+```
+Use the `mamba` command to install DVC.
+
+###### Local storage
+```bash
+mamba install -c conda-forge dvc
+```
+
+###### Remote storage
+```bash
+mamba install -c conda-forge dvc-ssh
+```
+
+###### Google Drive
+```bash
+mamba install -c conda-forge dvc-gdrive
+```
+
+#### Installing with Pip:
+
+###### Local storage
+```bash
+pip install dvc
+```
+###### Remote storage
+```bash
+pip install dvc[ssh]
+```
+###### Google Drive
+```bash
+pip install dvc[gdrive] 
+```
+#### PDM:
+
+Or, if you use PDM to manage Python packages, after cloning this repo, you can have DVC by running the following command.
 
 ```bash 
 pdm update
 ```
+
 *Note*: Remember to add `pdm run` at the beginning of the DVC commands. 
 
 
