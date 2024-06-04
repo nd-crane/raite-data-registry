@@ -5,11 +5,11 @@ This repository contains the RAITE [data registry](https://dvc.org/doc/use-cases
 
 
 ## Usage Example
-To list, import, and download the datasets registered here, please see [a usage example here](https://github.com/nd-crane/raite-data-registry-usage-example) 
+To list, import, and download the datasets registered here, please see a usage example [here](https://github.com/nd-crane/raite-data-registry-usage-example). 
 
 ## Dataset Registry Maintenance
 
-Add, pull, and update data in that RAITE dataset registry. For more information about data registry, go to [https://dvc.org/doc/use-cases/data-registry](https://dvc.org/doc/use-cases/data-registry)
+Add, pull, and update data in that RAITE dataset registry. For more information about data registry, go to [https://dvc.org/doc/use-cases/data-registry](https://dvc.org/doc/use-cases/data-registry).
 
 **Note**: To access this dataset registry, you must have SSH access to *CRC machines*.
 We will add another remote location with an access type other than an SSH-dependent one so that users outside of Notre Dame have access.
