@@ -1,0 +1,6 @@
+outs:
+- md5: 594247347e4e294958493f7810676094.dir
+  size: 13225
+  nfiles: 2
+  hash: md5
+  path: metadata
